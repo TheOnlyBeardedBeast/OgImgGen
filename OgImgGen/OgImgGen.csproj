@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Márk Polák</Authors>
+    <Owners>Márk Polák</Owners>
+    <PackageProjectUrl>https://github.com/TheOnlyBeardedBeast/OgImgGen</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TheOnlyBeardedBeast/OgImgGen</RepositoryUrl>
+    <PackageTags>ogtag,opengraph,seo</PackageTags>
+    <Title>OgImgGen</Title>
+    <Description>OG image generation on the fly with Skia</Description>
+    <ReleaseVersion>1.0.1</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
+  </ItemGroup>
+</Project>
