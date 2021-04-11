@@ -28,7 +28,7 @@ app.UseOgImgGen("/ogImg.png", "default-image.png", "font-you-want-to-use.ttf");
 
 UseOgImgGen accepts 3 properties
 
-- path, where the image will be generated
+- path, the URL to listen to
 - defaultImage location, the location for an existing image
 - font file location, the font to render on image
 
